@@ -14,16 +14,13 @@
     "url": "http://example.com"
   },
   "type": "privileged",
-  "permissions": {},
+  "permissions": {
+    "camera": {},
+    "device-storage:pictures":{ "access": "readwrite" }
+  },
   "installs_allowed_from": [
     "*"
   ],
-  "locales": {
-    "es": {
-      "name": "Aplicación vacía privilegiada",
-      "description": "Una plantilla con la mínima estructura",
-      "permissions": {}
-    }
-  },
+  "orientation": ["portrait"],
   "default_locale": "en"
 }
