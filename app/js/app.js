@@ -139,7 +139,7 @@
 
   function init() {
     // ストレージの取得
-    storage = navigator.getDeviceStorage('pictures')
+    storage = navigator.getDeviceStorage('pictures');
 
     // DOMの取得とイベント処理
     previewVideo = document.getElementById('preview');
